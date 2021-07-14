@@ -55,11 +55,11 @@ body{
  }
 
 .images2{
-      margin-left: 2%;
-      margin-right: 3%;
       margin-top: 5%;
       margin-bottom: 5%;
-      padding: 10px;
+      margin-left: 2%;
+      margin-right: 7%;
+       padding: 10px;
       box-shadow: 0 0 5px;
      }
 .images2 img{
@@ -77,8 +77,18 @@ body{
 .gallary-img img{
       width: 350px;
       height: 300px;
-      padding: 20px;
-
-      
+      padding:20px;
 }
- 
+.footer-img img{
+      width: 400px;
+      padding-left: 35%;
+      padding-top: 10%;
+}
+.icons{
+      font-size: 25px;
+      text-align: center;
+}
+#copywrite{
+      text-align: center;
+      padding-bottom: 40px;
+}
