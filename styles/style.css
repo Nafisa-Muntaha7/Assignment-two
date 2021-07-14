@@ -2,18 +2,35 @@
 /* ---------------------------
         Styles or utilities
 ----------------------------- */
+/*------------- Fonts -------------*/
 body{
       font-family: 'Poppins', sans-serif;
 }
-
-/* --------------------------
-           PLayers styles
----------------------------- */
+/*-------------------------
+      Header styles
+------------------------- */
 .top-side{
       display: flex;
       background-color:  navy;
       height: 600px;
 }
+.header img{
+      width: 480px;
+      height: 410px;
+      padding-top: 100px;
+      padding-left: 30%;
+}
+
+.heading{
+      color: #ffffff;
+      font-size: 50px;
+      font-weight: 700;
+      padding-left: 10%;
+      padding-top: 10%;
+}
+/* -------------------------
+         Animation styles
+---------------------------- */
 .animation{
       animation: colour-change 3s ease-in-out 0.5s  infinite;
 }
@@ -34,22 +51,10 @@ body{
             background-color: rgb(45, 45, 197);
       }
 }
-.header img{
-      width: 480px;
-      height: 410px;
-      padding-top: 100px;
-      padding-left: 30%;
-}
-
-.heading{
-      color: #ffffff;
-      font-size: 50px;
-      font-weight: 700;
-      padding-left: 10%;
-      padding-top: 10%;
-}
       
-
+/* --------------------------
+           PLayers styles
+---------------------------- */
 .players{
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -59,14 +64,6 @@ body{
 .top-players{
       padding-left: 180px;
       padding-right: 210px;
-}
-.button{
-      text-decoration: none;
-      background-image: linear-gradient(rgba(228, 99, 84, 0.904),#E02C6D );
-      padding: 5px 10px;
-      color: white;
-      font-size: 20px;
-      font-weight: 500;
 }
 .fa-arrow-right{
       font-size: 20px;
@@ -82,10 +79,23 @@ body{
      box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
  
 }
+/* -------------------------
+         Button style
+--------------------------- */
+.button{
+      text-decoration: none;
+      background-image: linear-gradient(rgba(228, 99, 84, 0.904),#E02C6D );
+      padding: 5px 10px;
+      color: white;
+      font-size: 20px;
+      font-weight: 500;
+}
+/* --------------------------
+        Highlights styles
+----------------------------- */
  .extra-section1{
        display: flex;
  }
-
 .images2{
       margin-top: 5%;
       margin-bottom: 5%;
@@ -93,7 +103,7 @@ body{
       margin-right: 7%;
        padding: 10px;
       box-shadow: 0 0 5px;
-     }
+ }
 .images2 img{
       width: 310px;
       height: 236px;
@@ -110,9 +120,11 @@ body{
 .image1 img{
       width: 560px;
       height: 420px;
-      padding-left: 10%;
-    
-}
+      padding-left: 10%;    
+}     
+/* -------------------------------
+       Gallary section styles
+---------------------------------- */
 .section2{
       font-size: 25px;
       padding-top: 80px;
@@ -123,14 +135,23 @@ body{
       height: 320px;
       padding:20px;
 }
+/* ------------------------
+     Font awesome styles
+ -------------------------- */
+.icons{
+      font-size: 25px;
+      text-align: center;
+}
+.fa-arrow-right{
+      font-size: 20px;
+}
+/* -----------------------
+         Footer style
+-------------------------- */
 .footer-img img{
       width: 400px;
       padding-left: 35%;
       padding-top: 10%;
-}
-.icons{
-      font-size: 25px;
-      text-align: center;
 }
 #copywrite{
       text-align: center;
