@@ -12,20 +12,21 @@ body{
 .top-side{
       display: flex;
       background-color:  navy;
-      height: 520px;
+      height: 600px;
 }
 .header img{
       width: 480px;
       height: 410px;
-      padding-top: 70px;
+      padding-top: 100px;
+      padding-left: 30%;
 }
 
 .heading{
       color: #ffffff;
-      font-size: 30px;
+      font-size: 50px;
       font-weight: 700;
-     padding-left: 10%;
-     padding-top: 5%;
+      padding-left: 10%;
+      padding-top: 10%;
 }
       
 
@@ -38,6 +39,17 @@ body{
 .container{
       padding-left: 180px;
       padding-right: 210px;
+}
+.button{
+      text-decoration: none;
+      background-image: linear-gradient(rgba(228, 99, 84, 0.904),#E02C6D );
+      padding: 5px 10px;
+      color: white;
+      font-size: 20px;
+      font-weight: 500;
+}
+.fa-arrow-right{
+      font-size: 20px;
 }
 .player img{
       width: 270px;
@@ -69,9 +81,16 @@ body{
 .highlights{
       display: flex;
 }
+.section1 h1{
+      font-size: 40px;
+}
+.section1{
+      padding-left: 12%;
+}
 .image1 img{
       width: 560px;
       height: 420px;
+      padding-left: 10%;
     
 }
 .gallary-img img{
