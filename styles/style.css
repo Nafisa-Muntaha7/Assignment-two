@@ -101,7 +101,7 @@ body{
       margin-bottom: 5%;
       margin-left: 2%;
       margin-right: 7%;
-       padding: 10px;
+      padding: 10px;
       box-shadow: 0 0 5px;
  }
 .images2 img{
@@ -160,13 +160,38 @@ body{
 /* ----------------------
          Media Queries
  ----------------------- */
- @media only screen and (max-width:688px) {
+ @media only screen and (max-width: 688px) {
+      * {
+            box-sizing: border-box;
+          }
+          .heading{
+                padding-left: 0;
+          }
+          .top-players{
+                padding-top: 100px;
+                padding-left: 0;
+          }
+          .extra-section1{
+                flex-direction: column;
+          }
+          .image1 img{
+            width: 380px ;
+            padding-top: 10px;
+            padding-left: 0;
+      }
        .container{
              width: 100%;
        }
 .top-side, .top-players, .extra-section1, .highlights, .gallary, .footer{
       grid-template-columns: repeat(1, 1fr);
+}
+
+.players{
+      grid-template-columns: repeat(1, 1fr);
+}
+.top-side, .player, .images2, .highlights, .gallary, .footer{
       flex-direction: column;
+     
 }
        
  }
